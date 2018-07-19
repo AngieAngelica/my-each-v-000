@@ -4,8 +4,10 @@ def my_each(array) # put argument(s) here
  array.each do |num|
   yield
     puts num
+    i + 0
   while array.length < 5
     puts "My num is #{num}, and I'm next"
+    i += 1
   array.length == 5
     puts "This is the end of the line!"
   end 
