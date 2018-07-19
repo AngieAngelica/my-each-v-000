@@ -5,7 +5,7 @@ def my_each(array) # put argument(s) here
     array.join(",")
  
 while array.length < 5
-  puts "My num is #{num}, and I'm next"
+  puts "I'm next!"
 end 
 
 end
