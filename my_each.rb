@@ -4,10 +4,12 @@ def my_each(array) # put argument(s) here
  yield
     array.join(",")
  i + 0
+
 while array.length < 5
-    puts "My num is #{num}, and I'm next"
+  puts "My num is #{num}, and I'm next"
  i += 1
-  end 
+end 
+
 end
 
 
