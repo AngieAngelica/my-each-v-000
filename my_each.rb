@@ -1,8 +1,7 @@
 def my_each(array) # put argument(s) here
  puts "This is only a test!"
  
- array.each do |num|
-  yield
+ yield
     puts num
     i + 0
   while array.length < 5
