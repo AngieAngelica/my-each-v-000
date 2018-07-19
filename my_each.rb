@@ -1,11 +1,11 @@
 def my_each(array) # put argument(s) here
  puts "This is only a test!"
  
- array.each do |name|
+ array.each do |num|
   yield
-    puts name
+    puts num
   while array.length < 5
-    puts "My name is #{name}, and I'm next"
+    puts "My num is #{num}, and I'm next"
   array.length == 5
     puts "This is the end of the line!"
   end 
