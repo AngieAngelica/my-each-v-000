@@ -8,8 +8,6 @@ def my_each(array) # put argument(s) here
   while array.length < 5
     puts "My num is #{num}, and I'm next"
     i += 1
-  a
-    puts "This is the end of the line!"
   end 
 end
 
