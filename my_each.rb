@@ -2,7 +2,7 @@ def my_each(array) # put argument(s) here
  puts "This is only a test!"
  
  yield
-    puts num
+    array.
  i + 0
 while array.length < 5
     puts "My num is #{num}, and I'm next"
